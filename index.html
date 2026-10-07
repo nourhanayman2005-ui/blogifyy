@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blogify</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1/dist/axios.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Blogify</h1>
+
+    <a href="index.html">Home</a>
+    <a href="bookmarks.html">Bookmarks</a>
+
+    <button id="darkButton">Dark Mode</button>
+</header>
+
+<main>
+
+    <h2 id="welcome"></h2>
+
+    <input id="search" type="text" placeholder="Search posts">
+
+    <p id="loading">Loading...</p>
+
+    <p id="error"></p>
+
+    <div id="posts"></div>
+
+    <br>
+
+    <button id="previous">Previous</button>
+    <span id="page">Page 1</span>
+    <button id="next">Next</button>
+
+</main>
+
+<div id="toast">Saved!</div>
+
+</body>
+</html>
